@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruchnoy_fon"
+    android:orientation="vertical" >
+
+
+
+    <EditText
+        android:id="@+id/update_login"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:text="@string/pass_new"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+    <EditText
+        android:id="@+id/update_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="300sp"
+            android:layout_height="88sp"
+            android:layout_marginStart="5mm"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_style"
+            android:shadowColor="#A80000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/izmpass"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            tools:ignore="InOrMmUsage" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/session_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

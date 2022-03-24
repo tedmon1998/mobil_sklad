@@ -1,0 +1,72 @@
+﻿body{
+	background: #white url('http://192.168.1.55/SaytMobil/fon.jpg');
+	background-size: cover;
+}
+
+table {
+	color:black;
+	class="raz";
+
+}
+td , th{
+	background-color: black;
+	color: white;
+	border:1px solid;
+	border: 2px solid lightgray;
+	padding: 5px; /* Поля вокруг текста */
+
+
+}
+
+.scroll{
+  left: 20%; /* Положение слоя от левого края */  
+  top: 0%; /* Положение слоя от верхнего края */
+  display: block;
+  height: 79%;
+  width: 79%;
+  overflow-y: scroll;
+}
+
+a {
+	color: yellow;
+}
+
+.raz {
+	empty-cells: show;
+    background: lightpink;
+} 
+body { 
+    margin: 10; /* Убираем отступы */
+   }
+
+.rating{
+	display: flex;
+}
+
+.rating-item{
+	width: 25px;
+	height: 25px;
+	background-color: yellow;
+	border: 3px solid #0000FF;
+	cursor: pointer;
+}
+
+.rating-item.active{
+	background-color: red;
+}
+
+button {
+	background-color: black;
+	color: white;
+}
+
+input {
+	width: 14%;
+	height: 4%;
+	background-color: black;
+	color: red;
+	font-size: 130%;
+}
+
+
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#000000">
+
+
+
+        <Button
+            android:id="@+id/obshee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu"
+            android:text="@string/obshee2"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="139dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/pd"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kol"
+                android:layout_width="102dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/ves"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ves"
+                android:layout_width="127dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/koll"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <!--
+            Главный ListView
+            Всегда давайте значение идентификатора
+            в виде списка(@android:id/list)
+        -->
+
+                    <TextView
+                        android:id="@+id/session_text"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textAlignment="center"
+                        android:textSize="14sp"
+                        tools:ignore="MissingConstraints" />
+
+                    <ListView
+                        android:id="@android:id/list"
+                        android:layout_width="match_parent"
+                        android:layout_height="999999dp"
+                        android:dividerHeight="00.0sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mymobilsklad">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/ToolBar"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".admin.Scanner" />
+        <activity android:name=".user1.Scanner" />
+
+        <activity android:name=".admin.AllProduct" />
+        <activity android:name=".admin.AllProduct_Name" />
+        <activity android:name=".admin.AllProduct_Pers" />
+        <activity android:name=".admin.AllProduct_Ves" />
+        <activity android:name=".admin.AllProduct_Name_Povorot" />
+        <activity android:name=".admin.AllProduct_Pers_Povorot" />
+        <activity android:name=".admin.AllProduct_Ves_Povorot" />
+        <activity android:name=".admin.AllProdano" />
+        <activity android:name=".admin.AllProdano_Name" />
+        <activity android:name=".admin.AllProdano_Pers" />
+        <activity android:name=".admin.AllProdano_Ves" />
+        <activity android:name=".admin.AllProdano_Name_Povorot" />
+        <activity android:name=".admin.AllProdano_Ves_Povorot" />
+        <activity android:name=".admin.AllProdano_Pers_Povorot" />
+        <activity android:name=".admin.Obshee" />
+        <activity android:name=".admin.ObsheeProdano" />
+        <activity android:name=".admin.EditProductActivity" />
+        <activity android:name=".admin.VseProductiActivity" />
+        <activity android:name=".admin.Ruchnoy_Prixod" />
+        <activity android:name=".user1.Ruchnoy_Prixod" />
+
+        <activity android:name=".admin.Ruchnoy_RASXOD_PD" />
+        <activity android:name=".user1.Ruchnoy_RASXOD_PD" />
+
+        <activity android:name=".admin.SozdaniyeSC" />
+        <activity android:name=".admin.Scanner_Proverka" />
+        <activity android:name=".admin.Sozd_Product" />
+        <activity android:name=".admin.RasxodPD" />
+        <activity android:name=".user1.RasxodPD" />
+
+        <activity android:name=".admin.RasxodSC" />
+        <activity android:name=".user1.RasxodSC" />
+
+        <activity android:name=".admin.NewPD" />
+        <activity android:name=".user1.NewPD" />
+
+        <activity android:name=".admin.MainActivity" />
+        <activity android:name=".user1.MainActivity" />
+
+
+        <activity android:name=".admin.Ruchnoy_Rasxod" />
+        <activity android:name=".user1.Ruchnoy_Rasxod" />
+
+        <activity android:name=".admin.Ruchnoy_PRIXOD_PD" />
+        <activity android:name=".user1.Ruchnoy_PRIXOD_PD" />
+
+        <activity android:name=".admin.AllProduct_Povorot" />
+        <activity android:name=".admin.AllProdano_Povorot" />
+        <activity android:name=".admin.Update_Pass" />
+        <activity android:name=".user1.Update_Pass" />
+        <activity android:name=".registr" />
+
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

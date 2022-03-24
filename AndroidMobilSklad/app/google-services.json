@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684009470742",
+    "firebase_url": "https://mymobilsklad-47887.firebaseio.com",
+    "project_id": "mymobilsklad-47887",
+    "storage_bucket": "mymobilsklad-47887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684009470742:android:88799df0e1c44ed9",
+        "android_client_info": {
+          "package_name": "com.example.mymobilsklad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684009470742-3alvs8621cd9tj34frkfe7ue91bmuk30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mymobilsklad",
+            "certificate_hash": "42ff68dc21239c7aaebeaf4659af8947733b4e9e"
+          }
+        },
+        {
+          "client_id": "684009470742-mppko8fmaril61lquvr5pe7jib4slabc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0YCXNesMlBZZ_5G_1WRRIaaXRhwy5wQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684009470742-mppko8fmaril61lquvr5pe7jib4slabc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

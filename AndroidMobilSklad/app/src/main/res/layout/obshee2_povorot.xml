@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/obshee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu"
+            android:text="@string/obshee2"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/pd"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/kol"
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/ves"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/ves"
+                android:layout_width="169dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/koll"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <!--
+            Главный ListView
+            Всегда давайте значение идентификатора
+            в виде списка(@android:id/list)
+        -->
+                <TextView
+                    android:id="@+id/session_text"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    tools:ignore="MissingConstraints" />
+
+                <ListView
+                    android:id="@android:id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="999999dp"
+                    android:dividerHeight="0.0sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

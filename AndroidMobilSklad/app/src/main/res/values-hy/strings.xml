@@ -1,0 +1,78 @@
+<resources>
+    <string name="b1_1">Մուտք</string>
+    <string name="b1_2">Ելք</string>
+    <string name="b1_3">Մնացօռթ</string>
+    <string name="sev_data">Ամսաթիվ:</string>
+    <string name="name">Մուտքագրեք անունը</string>
+    <string name="kol">քանակը</string>
+
+
+    <string name="b2_2">հաշվարկել արժեքը</string>
+    <string name="ruchnoy">ձեռքով ընտրեք</string>
+    <string name="Mutq1">սկանավորում</string>
+
+
+    <string name="kod">ապրանքի կոդը</string>
+    <string name="pass_new">Նոր գաղտնաբառ</string>
+
+    <string name="izmenit">Փոփոխել || պահպանել</string>
+    <string name="izmpass">պահպանել</string>
+
+    <string name="list">Ավելացնել անուն!</string>
+    <string name="list1">քանակը</string>
+
+    <string name="sozdaniye">Ստեղծեք արտադրանքը</string>
+
+    <string name="glavniy">հիմնական էջ</string>
+    <string name="ostatok">Մնացօռթ</string>
+
+
+
+    <string name="kol_dobavleniya">1</string>
+
+    <string name="del">Ջնջել</string>
+
+
+    <string name="button_menu">ընտրացանկը</string>
+
+    <string name="item1">Ստեղծեք ԱՊՐԱՆՔ</string>
+    <string name="item2">ՓՈՓՈԽՈՒԹՅՈՒՆ ԱՊՐԱՆՔ</string>
+
+    <string name="item1_1">Ստեղծեք ԱՊՐԱՆՔ</string>
+    <string name="item2_1">Մուտք</string>
+    <string name="item3_1">Ելք</string>
+
+    <string name="item1_2">հիմնական էջ</string>
+
+    <string name="ToolBar">Tunyan Group</string>
+
+    <string name="login">մուտքային</string>
+    <string name="pass">գաղտնաբառ</string>
+    <string name="pl">մուտք ծրագիր</string>
+
+    <string name="error">Անվավեր օգտանուն կամ գաղտնաբառ</string>
+
+    <string name="glav">&#160;&#160;&#160;հիմնական էջ&#160;&#160;&#160;</string>
+    <string name="obshee">&#160;ընդհանուր&#160;</string>
+    <string name="obshee2">&#160;&#160;մանրամասն&#160;&#160;</string>
+    <string name="prodano">&#160;&#160;վաճառաց&#160;&#160;</string>
+
+
+    <string name="sklad">պահեստ</string>
+
+
+    <string name="names">անուն</string>
+    <string name="user">օգտագործողը</string>
+    <string name="ves">քաշը </string>
+    <string name="tip">⋮</string>
+
+
+    <string name="vixod">ելքը ծրագրից </string>
+    <string name="update_pass">փոխել գաղտնաբառը</string>
+
+    <string name="pd">ապրանքներ</string>
+    <string name="pers">աշխատակազմը</string>
+    <string name="update_time">ամսաթիվը եւ ժամը</string>
+    <string name="koll">քանակը</string>
+
+</resources>

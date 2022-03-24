@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/obshee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu"
+                android:text="@string/obshee"
+                android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+            <Button
+            android:id="@+id/prodano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu"
+            android:text="@string/prodano"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/pd"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/pers"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/pers"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/updated_at"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="3"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/update_time"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ves"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/ramka"
+                android:paddingStart="6dip"
+                android:paddingTop="6dip"
+                android:text="@string/ves"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/session_text"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    tools:ignore="MissingConstraints" />
+
+                <ListView
+                    android:id="@android:id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:dividerHeight="0.0sp" />
+
+            </LinearLayout>
+
+
+</LinearLayout>

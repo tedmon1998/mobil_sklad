@@ -1,0 +1,29 @@
+    
+/////////////////////////////////////////////////////////////////////////////////////////
+
+    <link rel="shortcut icon" href="587a324d7b94d1599d547ec2.png">
+    <meta name="Robots" content="all">
+    <meta name="resourse-type" content="document">
+    <meta name="document-state" content="dynamic">
+    <meta name="revisit-after" content="1 days">
+    <meta name="document-state" content="dynamic">
+    <meta name="distribution" content="global">
+   
+    <!-- Ìåòà òåãè îïèñàíèÿ äëÿ èíäåêñàöèè â êàòàëîãàõ-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./bootstrap-grid-3.3.1.min.css" rel="stylesheet" type="text/css">
+    <link href="./default.css" rel="stylesheet" type="text/css">
+    <link href="./default.date.css" rel="stylesheet" type="text/css">
+    <link href="./bootstrap-grid-3.3.2.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+///////////////////////////////////////////////////////////////////////////////////////////
+  <script src="./jquery.min.js"></script>
+  <script src="./jquery.scrollupformenu.js"></script>
+  <script src="./EasePack.min.js"></script>
+  <script src="./raf.min.js"></script>
+  <script src="./TweenLite.min.js"></script>
+  <script src="./picker.js"></script>
+  <script src="./picker.date.js"></script>
+  <script src="./js/legacy.js"></script>
+  <script src="./jquery.maskedinput.min.js"></script>
+  <script src="./common.js"></script>

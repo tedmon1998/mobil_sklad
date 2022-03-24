@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruchnoy_fon"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/sozd_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:hint="@string/name"
+        android:onClick="clear_name"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F80E0E" />
+
+    <EditText
+        android:id="@+id/sozd_kod"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:hint="@string/kod"
+        android:inputType="numberDecimal"
+        android:onClick="clear_kod"
+        android:singleLine="true"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textColorHint="#FF0000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/sc_sozdaniye"
+            android:layout_width="500sp"
+            android:layout_height="80sp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_style"
+            android:shadowColor="#A80000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/Mutq1"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            tools:ignore="InOrMmUsage" />
+
+        <Button
+            android:id="@+id/btn_sozd"
+            android:layout_width="500sp"
+            android:layout_height="80sp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_style"
+            android:shadowColor="#A80000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="8"
+            android:text="@string/sozdaniye"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            tools:ignore="InOrMmUsage" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/session_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="b1_1">ПРИХОД</string>
+    <string name="b1_2">РАСХОД</string>
+    <string name="b1_3">ОСТАТОК</string>
+    <string name="sev_data">Дата:</string>
+    <string name="name">Введите имя</string>
+    <string name="kol">Количество</string>
+
+
+    <string name="b2_2">РАССЧИТАТЬ</string>
+    <string name="ruchnoy">ВЫБРАТЬ ВРУЧНУЮ</string>
+    <string name="Mutq1">СКАНИРОВАТЬ</string>
+
+
+    <string name="kod">Код продукта</string>
+    <string name="pass_new">Новый пароль</string>
+
+    <string name="izmenit">Изменить||Сохранить</string>
+    <string name="izmpass">Сохранить</string>
+
+    <string name="list">Добавь имя!</string>
+    <string name="list1">Количество</string>
+
+    <string name="sozdaniye">Создать продукт</string>
+
+    <string name="glavniy">НА ГЛАВНУЮ</string>
+    <string name="ostatok">ОСТАТОК</string>
+
+
+
+    <string name="kol_dobavleniya">1</string>
+
+    <string name="del">Удалить</string>
+
+
+    <string name="button_menu">Меню</string>
+
+    <string name="item1">СОЗДАТЬ ПРОДУКТ</string>
+    <string name="item2">ИЗМЕНИТЬ ПРОДУКТ</string>
+
+    <string name="item1_1">СОЗДАТЬ ПРОДУКТ</string>
+    <string name="item2_1">ПРИХОД</string>
+    <string name="item3_1">РАСХОД</string>
+
+    <string name="item1_2">НА ГЛАВНУЮ</string>
+
+    <string name="ToolBar">Tunyan Group</string>
+
+    <string name="login">Логин</string>
+    <string name="pass">Пароль</string>
+    <string name="pl">Вход</string>
+
+    <string name="error">Неверное имя или пароль</string>
+
+    <string name="glav">&#160;&#160;&#160;на главную&#160;&#160;&#160;</string>
+    <string name="obshee">&#160;общее&#160;</string>
+    <string name="obshee2">&#160;&#160;подробно&#160;&#160;</string>
+    <string name="prodano">&#160;&#160;продано&#160;&#160;</string>
+
+
+    <string name="sklad">склад</string>
+
+
+    <string name="names">имя</string>
+    <string name="user">пользователь</string>
+    <string name="ves">вес </string>
+    <string name="tip">⋮</string>
+
+
+    <string name="vixod">ВЫХОД </string>
+    <string name="update_pass">ИЗМЕНИТЬ ПАРОЛЬ</string>
+
+    <string name="pd">продукт</string>
+    <string name="pers">персонал</string>
+    <string name="update_time">дата и время</string>
+    <string name="koll">штук</string>
+
+</resources>
